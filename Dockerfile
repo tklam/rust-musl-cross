@@ -27,6 +27,8 @@ RUN apt-get update && \
     llvm-dev \
     libclang-dev \
     clang \
+    libssl-dev \
+    pkg-config \
     && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
